@@ -1,0 +1,75 @@
+name: selfie
+description: "An irondome project 4 males" 
+ 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  async: ^2.8.2
+  auto_size_text: ^3.0.0
+  camera: ^0.10.5+9
+  flutter_secure_storage: ^9.0.0
+  flutter_swiper_view: ^1.1.8
+  flutter_keyboard_visibility: ^6.0.0
+  get_it: ^7.2.0
+  googleapis_auth: ^1.2.0
+  gcloud: ^0.8.5
+  logger: ^2.0.2+1
+  path_provider: ^2.0.8  
+  scroll_page_view: ^1.0.2 
+  screenshot: 2.1.0
+  shared_preferences: ^2.2.2
+  tflite_flutter: ^0.10.4
+
+  #FIREBASE
+  firebase_auth: ^4.5.0
+  firebase_core: ^2.8.2
+  firebase_storage: ^11.6.0
+  firebase_ui_auth: ^1.13.0
+  firebase_database: ^10.4.10
+  firebase_ui_oauth_google: ^1.3.1
+
+  #LOCALIZATION
+  flutter_localizations:
+    sdk: flutter
+  flutter_translate: ^4.0.4
+
+  #GRAPHICS
+  flutter_svg: ^2.0.9
+  flutter_screenutil: ^5.0.0
+
+  #ARCHITECTURE
+  provider: ^6.0.0
+
+  #PERMISSION
+  permission_handler: ^11.3.0
+
+dependency_overrides:
+  firebase_core_platform_interface: ^4.5.1
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/icon/icon.png"
+  image_path_android: "assets/icon/icon.png" 
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/i18n/
+    - assets/svg/
+    - assets/json/
+    - assets/icon/
+    - assets/images/

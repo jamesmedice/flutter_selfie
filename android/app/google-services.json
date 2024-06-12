@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1071410777644",
+    "project_id": "tpmedici",
+    "storage_bucket": "tpmedici.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071410777644:android:c1349c6efbad6723488b89",
+        "android_client_info": {
+          "package_name": "com.app.selfie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071410777644-2h699391vtp3lttb7k36er3v7a4esn4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.selfie",
+            "certificate_hash": "444f75809ed3e7403e888ac59454b500b1272a50"
+          }
+        },
+        {
+          "client_id": "1071410777644-qmis8u6herq999po7pkvfs4qhrntmpf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2VBwy6ZG1ErU_QLhvokJUXY2002eUamM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071410777644-qmis8u6herq999po7pkvfs4qhrntmpf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
